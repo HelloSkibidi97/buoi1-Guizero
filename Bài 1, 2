@@ -1,0 +1,4 @@
+from guizero import App,Text
+ungdung=App(title='Luyện tập bài 2',width=400,height=600,bg='lightblue')
+noidung=Text(master=ungdung,text='Xin chào, tôi đang học GUIZERO')
+ungdung.display()

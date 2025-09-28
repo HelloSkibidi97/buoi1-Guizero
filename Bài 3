@@ -1,0 +1,5 @@
+from guizero import App, Text
+ungdung=App(title='Hộp thoại của tôi',bg='red')
+noidung=Text(master=ungdung,size=16,text='Tôi tên là: Phạm Trịnh Hưng',bg='blue')
+noidung2=Text(master=ungdung,size=16,text='Học GUI thật thú vị',bg='green')
+ungdung.display()
